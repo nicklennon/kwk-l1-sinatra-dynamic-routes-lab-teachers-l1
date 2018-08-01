@@ -40,7 +40,7 @@ class App < Sinatra::Base
       @result = @number1-@number2
     elsif params[:operation] == "multiply"
       @result = @number1*@number2
-    else
+   else
       @result = @number1/@number2
     end
     "#{@result}"
